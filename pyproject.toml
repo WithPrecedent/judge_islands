@@ -18,7 +18,16 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Topic :: Software Development"]
 keywords = []
-dependencies = []
+dependencies = [
+    "markdown-slides",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "PyQt5",
+    "seaborn",
+    "xkcd-font@git+https://github.com/ipython/xkcd-font",
+    "xkcd"
+]
 
 [project.urls]
 Documentation = "https://WithPrecedent.github.io/judge_islands"
@@ -61,6 +70,7 @@ tests = [
     "pytest-cov >= 4.1.0",
     "pytest-randomly >= 3.13.0",
     "pytest-xdist >= 3.3.1"]
+visuals = ["PyQt5"]
 
 [tool.pdm.version]
 source = "file"

@@ -1,4 +1,4 @@
-# judge islands
+# Judges are not Islands
 
 | | |
 | --- | --- |
