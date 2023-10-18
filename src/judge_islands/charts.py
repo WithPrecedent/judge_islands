@@ -28,6 +28,7 @@ def visualize_panel_effects(
     axes = data.plot.bar(
         x = 'Number of Democrats on Panel', 
         y = 'Criminal Defendant Win %', 
+        ylabel = 'Criminal Defendant Win %',
         title = 'Panel Effects in Federal Criminal Defendant\nAppeals 2008-2016 (n = 28,564)',
         rot = 0,
         edgecolor = colors_list,
